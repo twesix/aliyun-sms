@@ -1,0 +1,19 @@
+{
+  "name": "aliyun-sms",
+  "version": "1.0.2",
+  "main": "index.js",
+  "author":"twesix",
+  "description": "SDK of Aliyun SMS(Short Message Service) service.",
+  "license": "MIT",
+  "keywords": ["aliyun","sms","sdk","short message service"],
+  "repository":
+  {
+    "type":"git",
+    "url":"https://github.com/twesix/aliyun-sms.git"
+  },
+  "bugs":
+  {
+    "url":"https://github.com/twesix/aliyun-sms/issues"
+  },
+  "homepage": "https://github.com/twesix/aliyun-sms"
+}
