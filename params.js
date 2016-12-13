@@ -6,7 +6,7 @@ let params={};
 // 请求参数
 params.Action='SingleSendSms';
 params.SignName=false;  // 短信签名
-params.template_code=false; // 短信模板
+params.TemplateCode=false; // 短信模板
 params.RecNum='01234567890'; // 发送短信的号码列表，逗号分隔，发送时需要提供具体的值，否则发送会失败
 params.ParamString=false;  // 短信模板需要的参数
 
@@ -14,8 +14,8 @@ params.ParamString=false;  // 短信模板需要的参数
 params.Format='JSON'; // 默认是JSON，也可以在构造函数中覆盖成XML
 params.Version='2016-09-27';
 params.AccessKeyId=false;
-params.AccessKeySecret=false;
-params.Signature=false; // 需要根据请求进行计算，不同的请求不一样
+params.__AccessKeySecret=false;
+params.__Signature=false; // 需要根据请求进行计算，不同的请求不一样
 params.SignatureMethod='HMAC-SHA1';
 params.Timestamp=false;  // 需要动态生成
 params.SignatureVersion='1.0';

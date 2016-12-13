@@ -1,2 +1,3 @@
 .idea/
 access_key.js
+tests/sender.test.secret.js
